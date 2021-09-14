@@ -17,7 +17,7 @@ button {
   color: white;
   height: 3rem;
   font-size: 1.2rem;
-  border: 1px solid #D1D1D1;
+  border: 1px solid #d1d1d1;
 }
 
 .input-box::placeholder {
@@ -32,7 +32,7 @@ button {
 }
 
 .container button {
-  border: 1px solid #D1D1D1;
+  border: 1px solid #d1d1d1;
   height: 5rem;
 }
 
@@ -45,7 +45,7 @@ button {
 }
 
 .left-button {
-  background-color: #E0E0E0;
+  background-color: #e0e0e0;
 }
 
 .last-container {
@@ -54,5 +54,5 @@ button {
 }
 
 .right-button {
-  background-color: #F5913E;
+  background-color: #f5913e;
 }
