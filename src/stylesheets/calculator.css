@@ -3,7 +3,7 @@
 }
 
 .container {
-  width: 20rem;
+  width: 24rem;
 }
 
 button {
@@ -37,11 +37,11 @@ button {
 }
 
 .button-width {
-  width: 5rem;
+  width: 6rem;
 }
 
 #zero-button {
-  width: 10rem;
+  width: 12rem;
 }
 
 .left-button {
