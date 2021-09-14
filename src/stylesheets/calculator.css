@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 24rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+.input-box {
+  text-align: right;
+  width: 100%;
+  background-color: #858694;
+  color: white;
+  height: 3rem;
+  font-size: 1.2rem;
+  border: 1px solid #d1d1d1;
+}
+
+.input-box::placeholder {
+  color: white;
+  opacity: 0.6;
+}
+
+.sub-container {
+  background-color: red;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.container button {
+  border: 1px solid #d1d1d1;
+  height: 5rem;
+}
+
+.button-width {
+  width: 6rem;
+}
+
+#zero-button {
+  width: 12rem;
+}
+
+.left-button {
+  background-color: #e0e0e0;
+}
+
+.last-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.right-button {
+  background-color: #f5913e;
+}
