@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-
 import operate from './operate';
 
 function isNumber(item) {
@@ -16,8 +14,6 @@ function isNumber(item) {
  *   operation:String  +, -, etc.
  */
 export default function calculate(obj, buttonName) {
-  console.log(obj);
-
   if (buttonName === 'AC') {
     return {
       total: null,

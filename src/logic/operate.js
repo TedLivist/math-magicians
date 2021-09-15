@@ -24,5 +24,3 @@ export default function operate(numberOne, numberTwo, operation) {
   }
   throw Error(`Unknown operation '${operation}'`);
 }
-
-console.log(operate(2, 3, '+'));

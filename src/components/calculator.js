@@ -1,11 +1,6 @@
-/* eslint-disable  no-console, react/no-unused-state */
-/* eslint-disable react/prop-types, class-methods-use-this */
-
 import '../stylesheets/calculator.css';
 import React from 'react';
-// import PropTypes from 'prop-types';
 import calculate from '../logic/calculate';
-// import operate from '../logic/operate';
 
 class Calculator extends React.Component {
   constructor(props) {
@@ -38,7 +33,7 @@ class Calculator extends React.Component {
   render() {
     return (
       <div className="container">
-        <input className="input-box" placeholder="0" />
+        <input className="input-box" placeholder="0" readOnly />
         <div className="sub-container">
           <button type="button" className="ac button-width left-button" onClick={this.handleClick}>AC</button>
           <button type="button" className="plus-minus button-width left-button" onClick={this.handleClick}>+/-</button>
@@ -72,9 +67,5 @@ class Calculator extends React.Component {
     );
   }
 }
-
-// Calculator.propTypes = {
-//   handleClick: PropTypes.func.isRequired,
-// };
 
 export default Calculator;
