@@ -13,10 +13,16 @@ export default function operate(numberOne, numberTwo, operation) {
     return one.times(two).toString();
   }
   if (operation === '÷') {
-    return one.div(two).toString();
+    try {
+      return one.div(two).toString();
+    } catch {
+      return "Can't divide by zero";
+    }
   }
   if (operation === '%') {
     return one.mod(two).toString();
   }
   throw Error(`Unknown operation '${operation}'`);
 }
+
+console.log(operate(2, 3, '+'));
