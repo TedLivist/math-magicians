@@ -18,7 +18,7 @@ const Calculator = () => {
     } else if (!Number.isNaN(total)) {
       inputEl.value = total;
     }
-  });
+  }, [state]);
 
   function handleClick(e) {
     calcState({ ...state, ...calculate(state, e.target.innerHTML) });
