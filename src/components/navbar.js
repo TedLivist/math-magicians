@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import '../stylesheets/navbar.css';
 
 const Navbar = () => {
   const links = [
@@ -23,12 +24,15 @@ const Navbar = () => {
   ];
 
   return (
-    <nav>
-      <ul>
+    <nav className="navbar">
+      <div>
+        <h2>Math Magicians</h2>
+      </div>
+      <ul className="menu-items">
         {links.map((link) => {
           return (
-            <li key={link.id}>
-              <NavLink to={link.path}>{link.text}</NavLink>
+            <li key={link.id} className={link.id === 3 ? '' : 'link-border'}>
+              <NavLink to={link.path} className="link-margin">{link.text}</NavLink>
             </li>
           );
         })}
