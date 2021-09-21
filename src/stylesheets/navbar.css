@@ -1,0 +1,30 @@
+.navbar {
+  border-bottom: 2px solid grey;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar h1 {
+  margin-left: 1rem;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: end;
+}
+
+.menu-items li {
+  list-style: none;
+  height: 1.7rem;
+  position: relative;
+  top: 0.2rem;
+  font-size: 18px;
+}
+
+.link-border {
+  border-right: 2.5px solid black;
+}
+
+.link-margin {
+  margin: 0 0.6rem;
+}

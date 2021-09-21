@@ -1,0 +1,12 @@
+.header {
+  margin: 5px;
+}
+
+.header h2 {
+  margin-bottom: 25px;
+}
+
+.header p {
+  line-height: 25px;
+  margin-bottom: 3rem;
+}
