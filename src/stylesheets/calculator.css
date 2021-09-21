@@ -2,8 +2,20 @@
   box-sizing: border-box;
 }
 
+.calculator-root {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculator-root h1 {
+  margin-left: 2rem;
+}
+
 .container {
-  width: 24rem;
+  width: 36rem;
+  margin-right: 4rem;
+  margin-top: 2rem;
+  box-shadow: 4px 4px 5px grey;
 }
 
 button {
@@ -37,11 +49,11 @@ button {
 }
 
 .button-width {
-  width: 6rem;
+  width: 9rem;
 }
 
 #zero-button {
-  width: 12rem;
+  width: 18rem;
 }
 
 .left-button {
