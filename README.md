@@ -10,6 +10,9 @@
 
 - React
 
+## Live Demo
+Visit the live link [here](https://tedlivist.github.io/math-magicians/)
+
 ## Getting Started
 
 ### Setup
