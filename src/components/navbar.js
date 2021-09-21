@@ -1,5 +1,3 @@
-/* eslint-disable arrow-body-style */
-
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import '../stylesheets/navbar.css';
@@ -29,13 +27,11 @@ const Navbar = () => {
         <h1>Math Magicians</h1>
       </div>
       <ul className="menu-items">
-        {links.map((link) => {
-          return (
-            <li key={link.id} className={link.id === 3 ? '' : 'link-border'}>
-              <NavLink to={link.path} className="link-margin">{link.text}</NavLink>
-            </li>
-          );
-        })}
+        {links.map((link) => (
+          <li key={link.id} className={link.id === 3 ? '' : 'link-border'}>
+            <NavLink to={link.path} className="link-margin">{link.text}</NavLink>
+          </li>
+        ))}
       </ul>
     </nav>
   );
