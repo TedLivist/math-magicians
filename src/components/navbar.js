@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div>
-        <h2>Math Magicians</h2>
+        <h1>Math Magicians</h1>
       </div>
       <ul className="menu-items">
         {links.map((link) => {
