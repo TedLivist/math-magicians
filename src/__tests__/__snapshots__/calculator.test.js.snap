@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="calculator-root"
+>
+  <h1>
+    Let's do some math!
+  </h1>
+  <div
+    className="container"
+  >
+    <input
+      className="input-box"
+      placeholder="0"
+      readOnly={true}
+    />
+    <div
+      className="sub-container"
+    >
+      <button
+        className="ac button-width left-button"
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className="plus-minus button-width left-button"
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        className="percent button-width left-button"
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="divide button-width right-button"
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+    </div>
+    <div
+      className="sub-container"
+    >
+      <button
+        className="seven button-width left-button"
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className="eight button-width left-button"
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className="nine button-width left-button"
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="times button-width right-button"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+    </div>
+    <div
+      className="sub-container"
+    >
+      <button
+        className="four button-width left-button"
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className="five button-width left-button"
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className="six button-width left-button"
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="minus button-width right-button"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+    </div>
+    <div
+      className="sub-container"
+    >
+      <button
+        className="four button-width left-button"
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="five button-width left-button"
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="six button-width left-button"
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="minus button-width right-button"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+    </div>
+    <div
+      className="last-container"
+    >
+      <button
+        className="zero left-button"
+        id="zero-button"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="dot button-width left-button"
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+      <button
+        className="equal button-width right-button"
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
