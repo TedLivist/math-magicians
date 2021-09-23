@@ -8,3 +8,21 @@
   padding: 1rem;
   box-shadow: 4px 4px 4px gray;
 }
+
+button {
+  border: none;
+  padding: 0.5rem;
+  font-family: 'Balsamiq Sans', sans-serif;
+  font-size: 1rem;
+  background-color: white;
+  box-shadow: 2px 2px 3px gray;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  background-color: black;
+  color: #fff;
+}
