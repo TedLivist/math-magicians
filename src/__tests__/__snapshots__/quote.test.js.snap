@@ -4,6 +4,12 @@ exports[`renders correctly 1`] = `
 <div
   className="quote-container"
 >
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Generate Quote
+  </button>
   <h2>
     Mathematics possesses not only truth, but supreme beauty -- a beauty cold and austere, like that of sculpture. -- Bertrand Russell
   </h2>
