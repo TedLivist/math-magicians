@@ -1,14 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../stylesheets/quote.css';
+import quotes from './quotesArray';
 
-const Quote = () => (
-  <div className="quote-container">
-    <h2>
-      Mathematics possesses not only truth,
-      but supreme beauty -- a beauty cold and austere,
-      like that of sculpture. -- Bertrand Russell
-    </h2>
-  </div>
-);
+const Quote = () => {
+  const [quote, setQuote] = useState(quotes[0]);
+
+  const handleQuote = () => {
+    const quoteIndex = Math.floor(Math.random() * quotes.length);
+    setQuote(quotes[quoteIndex]);
+  };
+
+  return (
+    <div className="quote-container">
+      <button type="button" onClick={handleQuote}>Generate Quote</button>
+      <h2>{quote}</h2>
+    </div>
+  );
+};
 
 export default Quote;

@@ -8,7 +8,7 @@ it('renders correctly', () => {
     .create(
       <Router>
         <Navbar />
-      </Router>
+      </Router>,
     )
     .toJSON();
   expect(tree).toMatchSnapshot();
