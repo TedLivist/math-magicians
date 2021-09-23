@@ -27,8 +27,9 @@ button {
   width: 100%;
   background-color: #858694;
   color: white;
-  height: 3rem;
-  font-size: 1.2rem;
+  height: 5rem;
+  font-size: 1.8rem;
+  padding: 0 1.5rem;
   border: 1px solid #d1d1d1;
 }
 
@@ -45,7 +46,7 @@ button {
 
 .container button {
   border: 1px solid #d1d1d1;
-  height: 5rem;
+  height: 4.5rem;
 }
 
 .button-width {

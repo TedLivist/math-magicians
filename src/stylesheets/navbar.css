@@ -10,7 +10,7 @@
 
 .menu-items {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .menu-items li {
